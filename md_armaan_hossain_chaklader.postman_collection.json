@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "56525d73-f197-4fdb-923d-97473bb57e8f",
+		"name": "md_armaan_hossain_chaklader",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15496437"
+	},
+	"item": [
+		{
+			"name": "Solution 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{LOCAL_BASE_URL}}/md_armaan_hossain_chaklader/solution/1",
+					"host": [
+						"{{LOCAL_BASE_URL}}"
+					],
+					"path": [
+						"md_armaan_hossain_chaklader",
+						"solution",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Solution 2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{LOCAL_BASE_URL}}/md_armaan_hossain_chaklader/solution/2",
+					"host": [
+						"{{LOCAL_BASE_URL}}"
+					],
+					"path": [
+						"md_armaan_hossain_chaklader",
+						"solution",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Solution 3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ip\" : \"204.120.0.15\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{LOCAL_BASE_URL}}/md_armaan_hossain_chaklader/solution/3",
+					"host": [
+						"{{LOCAL_BASE_URL}}"
+					],
+					"path": [
+						"md_armaan_hossain_chaklader",
+						"solution",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

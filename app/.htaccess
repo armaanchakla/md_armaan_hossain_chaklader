@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteOptions Inherit
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule !\.(js|jpe?g|png|gif|bmp|css)$ - [F,NC]
